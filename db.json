@@ -128,10 +128,7 @@
       "nama_kelas": "A11.4602",
       "matakuliahId": "1",
       "dosenId": "1",
-      "mahasiswaIds": [
-        "1",
-        "2"
-      ],
+      "mahasiswaIds": ["1", "2"],
       "id": 1
     }
   ],
@@ -215,22 +212,14 @@
       "email": "user@mail.com",
       "password": "user123",
       "role": "user",
-      "permission": [
-        "dashboard.page",
-        "mahasiswa.page",
-        "mahasiswa.read"
-      ]
+      "permission": ["dashboard.page", "mahasiswa.page", "mahasiswa.read"]
     },
     {
       "name": "anjay",
       "email": "anjay@gmail.com",
       "password": "123",
       "role": "user",
-      "permission": [
-        "dashboard.page",
-        "mahasiswa.page",
-        "mahasiswa.read"
-      ],
+      "permission": ["dashboard.page", "mahasiswa.page", "mahasiswa.read"],
       "id": 3
     }
   ]
