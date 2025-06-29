@@ -1,0 +1,237 @@
+{
+  "chart": {
+    "students": [
+      {
+        "id": 1,
+        "faculty": "Teknik",
+        "count": 320
+      },
+      {
+        "id": 2,
+        "faculty": "Ekonomi",
+        "count": 210
+      },
+      {
+        "id": 3,
+        "faculty": "Kedokteran",
+        "count": 150
+      },
+      {
+        "id": 4,
+        "faculty": "Hukum",
+        "count": 180
+      },
+      {
+        "id": 5,
+        "faculty": "Ilmu Komputer",
+        "count": 260
+      }
+    ],
+    "genderRatio": [
+      {
+        "id": 1,
+        "gender": "Laki-laki",
+        "count": 600
+      },
+      {
+        "id": 2,
+        "gender": "Perempuan",
+        "count": 700
+      }
+    ],
+    "registrations": [
+      {
+        "id": 1,
+        "year": 2020,
+        "total": 500
+      },
+      {
+        "id": 2,
+        "year": 2021,
+        "total": 580
+      },
+      {
+        "id": 3,
+        "year": 2022,
+        "total": 640
+      },
+      {
+        "id": 4,
+        "year": 2023,
+        "total": 710
+      }
+    ],
+    "gradeDistribution": [
+      {
+        "subject": "TI",
+        "A": 120,
+        "B": 80,
+        "C": 40
+      },
+      {
+        "subject": "SI",
+        "A": 100,
+        "B": 90,
+        "C": 50
+      },
+      {
+        "subject": "MI",
+        "A": 110,
+        "B": 85,
+        "C": 30
+      }
+    ],
+    "lecturerRanks": [
+      {
+        "rank": "Asisten Ahli",
+        "count": 30
+      },
+      {
+        "rank": "Lektor",
+        "count": 50
+      },
+      {
+        "rank": "Lektor Kepala",
+        "count": 40
+      },
+      {
+        "rank": "Guru Besar",
+        "count": 10
+      }
+    ]
+  },
+  "dosen": [
+    {
+      "id": "1",
+      "nidn": "0410118801",
+      "nama": "Dr. Retno Wulandari",
+      "max_sks": 9,
+      "sks_mengajar": 3
+    },
+    {
+      "id": "2",
+      "nidn": "0425058902",
+      "nama": "Prof. Dr. Ir. Eko Indrajit",
+      "max_sks": 12,
+      "sks_mengajar": 0
+    },
+    {
+      "nidn": "042505890123",
+      "nama": "Pak Egi",
+      "max_sks": 12,
+      "sks_mengajar": 0,
+      "id": "o-2OsSm"
+    }
+  ],
+  "kelas": [
+    {
+      "nama_kelas": "A11.4602",
+      "matakuliahId": "1",
+      "dosenId": "1",
+      "mahasiswaIds": [
+        "1",
+        "2"
+      ],
+      "id": 1
+    }
+  ],
+  "mahasiswa": [
+    {
+      "id": "1",
+      "nim": "20211001",
+      "nama": "Budi Santoso",
+      "status": true,
+      "max_sks": 24,
+      "sks_diambil": 3
+    },
+    {
+      "id": "2",
+      "nim": "20211002",
+      "nama": "Siti Aminah",
+      "status": true,
+      "max_sks": 21,
+      "sks_diambil": 3
+    },
+    {
+      "nim": "123",
+      "nama": "Ana",
+      "status": true,
+      "max_sks": 24,
+      "sks_diambil": 0,
+      "id": "E7CatlV"
+    }
+  ],
+  "matakuliah": [
+    {
+      "id": "1",
+      "kode_mk": "IF101",
+      "nama": "Dasar Pemrograman",
+      "sks": 3
+    },
+    {
+      "id": "2",
+      "kode_mk": "IF102",
+      "nama": "Struktur Data",
+      "sks": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin Deri",
+      "email": "admin@mail.com",
+      "password": "admin123",
+      "role": "admin",
+      "permission": [
+        "dashboard.page",
+        "mahasiswa.page",
+        "mahasiswa.read",
+        "mahasiswa.create",
+        "mahasiswa.update",
+        "mahasiswa.delete",
+        "dosen.page",
+        "dosen.read",
+        "dosen.create",
+        "dosen.update",
+        "dosen.delete",
+        "matakuliah.page",
+        "matakuliah.read",
+        "matakuliah.create",
+        "matakuliah.update",
+        "matakuliah.delete",
+        "users.page",
+        "users.read",
+        "users.update",
+        "kelas.page",
+        "kelas.read",
+        "kelas.create",
+        "kelas.delete",
+        "kelas.update"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "User Biasa",
+      "email": "user@mail.com",
+      "password": "user123",
+      "role": "user",
+      "permission": [
+        "dashboard.page",
+        "mahasiswa.page",
+        "mahasiswa.read"
+      ]
+    },
+    {
+      "name": "anjay",
+      "email": "anjay@gmail.com",
+      "password": "123",
+      "role": "user",
+      "permission": [
+        "dashboard.page",
+        "mahasiswa.page",
+        "mahasiswa.read"
+      ],
+      "id": 3
+    }
+  ]
+}

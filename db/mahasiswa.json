@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "nim": "20211001",
+    "nama": "Budi Santoso",
+    "status": true,
+    "max_sks": 24,
+    "sks_diambil": 0
+  },
+  {
+    "id": "2",
+    "nim": "20211002",
+    "nama": "Siti Aminah",
+    "status": true,
+    "max_sks": 21,
+    "sks_diambil": 0
+  }
+]

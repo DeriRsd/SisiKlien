@@ -1,0 +1,42 @@
+{
+  "mahasiswa": [
+    {
+      "id": "1",
+      "nim": "20211001",
+      "nama": "Budi Santoso",
+      "status": true
+    },
+    {
+      "id": "2",
+      "nim": "20211002",
+      "nama": "Siti Aminah",
+      "status": true
+    }
+  ],
+  "dosen": [
+    {
+      "id": "1",
+      "nidn": "0410118801",
+      "nama": "Dr. Retno Wulandari"
+    },
+    {
+      "id": "2",
+      "nidn": "0425058902",
+      "nama": "Prof. Dr. Ir. Eko Indrajit"
+    }
+  ],
+  "matakuliah": [
+    {
+      "id": "1",
+      "kode_mk": "IF101",
+      "nama": "Dasar Pemrograman",
+      "sks": 3
+    },
+    {
+      "id": "2",
+      "kode_mk": "IF102",
+      "nama": "Struktur Data",
+      "sks": 3
+    }
+  ]
+}

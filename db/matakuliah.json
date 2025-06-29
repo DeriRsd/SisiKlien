@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "kode_mk": "IF101",
+    "nama": "Dasar Pemrograman",
+    "sks": 3
+  },
+  {
+    "id": "2",
+    "kode_mk": "IF102",
+    "nama": "Struktur Data",
+    "sks": 3
+  }
+]
